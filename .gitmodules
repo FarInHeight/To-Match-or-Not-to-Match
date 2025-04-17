@@ -1,3 +1,6 @@
 [submodule "image-matching-models"]
 	path = image-matching-models
 	url = https://github.com/alexstoken/image-matching-models.git
+[submodule "VPR-methods-evaluation"]
+	path = VPR-methods-evaluation
+	url = https://github.com/FarInHeight/VPR-methods-evaluation.git
