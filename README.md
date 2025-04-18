@@ -1,7 +1,7 @@
 # To-Match-or-Not-to-Match
-This repository contains the official PyTorch implementation for the paper "To Match or Not to Match: Revisiting Image Matching for Reliable Visual Place Recognition" presented at CVPR 2025 [IMW](https://image-matching-workshop.github.io/) 2025. he code has been released ahead of the [conference](https://cvpr.thecvf.com/Conferences/2025).
+This repository contains the official PyTorch implementation for the paper "To Match or Not to Match: Revisiting Image Matching for Reliable Visual Place Recognition" presented at CVPR 2025 [IMW](https://image-matching-workshop.github.io/) 2025. The code has been released ahead of the [conference](https://cvpr.thecvf.com/Conferences/2025).
 
-[[ArXiv](https://arxiv.org/abs/2504.06116)] [[HTML](https://arxiv.org/html/2504.06116)] [[BibTex](https://github.com/FarInHeight/To-Match-or-Not-to-Match?tab=readme-ov-file#cite)]
+[[ArXiv](https://arxiv.org/abs/2504.06116)] [[HTML](https://arxiv.org/html/2504.06116)] [[BibTex](https://github.com/FarInHeight/To-Match-or-Not-to-Match?tab=readme-ov-file#citation)]
 
 ## Installation
 
