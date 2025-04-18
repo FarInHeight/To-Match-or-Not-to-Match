@@ -27,6 +27,7 @@ jobs:
       run: |
         git pull --recurse-submodules
         git submodule update --remote --recursive
+        git add .
 
     - name: Commit update
       run: |
