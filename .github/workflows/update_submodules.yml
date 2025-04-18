@@ -8,6 +8,8 @@ jobs:
   sync:
     name: 'Submodules Sync'
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Allow write access to contents (including submodules)
 
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
     defaults:
@@ -25,7 +27,7 @@ jobs:
     # Update references
     - name: Git Submodule Update
       run: |
-        git submodule update --init --recursive
+        git pull --recurse-submodules
         git submodule update --remote --recursive
         git add .
 
