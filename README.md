@@ -81,7 +81,7 @@ python eval.py \
 
 ### Acknowledgements
 
-We would like to thank the authors of [alexstoken/image-matching-models](https://github.com/alexstoken/image-matching-models), [gmberton/VPR-methods-evaluation](https://github.com/gmberton/VPR-methods-evaluation) and [MubarizZaffar/SUE](https://github.com/MubarizZaffar/SUE) ffor making their code publicly available and without which this paper could not have taken place.
+We would like to thank the authors of [alexstoken/image-matching-models](https://github.com/alexstoken/image-matching-models), [gmberton/VPR-methods-evaluation](https://github.com/gmberton/VPR-methods-evaluation) and [MubarizZaffar/SUE](https://github.com/MubarizZaffar/SUE) for making their code publicly available and without which this paper could not have taken place.
 
 ## Citation
 
