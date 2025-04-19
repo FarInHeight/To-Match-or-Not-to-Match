@@ -89,8 +89,8 @@ Please consider citing our work as:
 
 ```bibtex
 @InProceedings{sferrazza_2025_to_match,
-  title={To Match or Not to Match: Revisiting Image Matching for Reliable Visual Place Recognition}, 
-  author={Davide Sferrazza and Gabriele Berton and Gabriele Trivigno and Carlo Masone},
+  title     = {To Match or Not to Match: Revisiting Image Matching for Reliable Visual Place Recognition}, 
+  author    = {Davide Sferrazza and Gabriele Berton and Gabriele Trivigno and Carlo Masone},
   booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
   month     = {June},
   year      = {2025},
