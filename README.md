@@ -79,10 +79,6 @@ python eval.py \
 --z-data-path '<path-to-z-data-file>'
 ```
 
-### Acknowledgements
-
-We would like to thank the authors of [alexstoken/image-matching-models](https://github.com/alexstoken/image-matching-models), [gmberton/VPR-methods-evaluation](https://github.com/gmberton/VPR-methods-evaluation) and [MubarizZaffar/SUE](https://github.com/MubarizZaffar/SUE) for making their code publicly available and without which this paper could not have taken place.
-
 ## Citation
 
 Please consider citing our work as:
@@ -96,3 +92,10 @@ Please consider citing our work as:
   year      = {2025},
 }
 ```
+
+### Acknowledgements
+
+We would like to thank the authors of [alexstoken/image-matching-models](https://github.com/alexstoken/image-matching-models), [gmberton/VPR-methods-evaluation](https://github.com/gmberton/VPR-methods-evaluation) and [MubarizZaffar/SUE](https://github.com/MubarizZaffar/SUE) for making their code publicly available and without which this paper could not have taken place.
+
+### License
+[MIT License](LICENSE)
