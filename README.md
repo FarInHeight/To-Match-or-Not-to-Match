@@ -84,12 +84,13 @@ python eval.py \
 Please consider citing our work as:
 
 ```bibtex
-@InProceedings{sferrazza_2025_to_match,
-  title     = {To Match or Not to Match: Revisiting Image Matching for Reliable Visual Place Recognition}, 
-  author    = {Davide Sferrazza and Gabriele Berton and Gabriele Trivigno and Carlo Masone},
-  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
-  month     = {June},
-  year      = {2025},
+@InProceedings{Sferrazza_2025_CVPR,
+    author    = {Sferrazza, Davide and Berton, Gabriele and Trivigno, Gabriele and Masone, Carlo},
+    title     = {To Match or Not to Match: Revisiting Image Matching for Reliable Visual Place Recognition},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR) Workshops},
+    month     = {June},
+    year      = {2025},
+    pages     = {2849-2860}
 }
 ```
 
