@@ -3,6 +3,10 @@ This repository contains the official PyTorch implementation for the paper "To M
 
 [[ArXiv](https://arxiv.org/abs/2504.06116)] [[HTML](https://arxiv.org/html/2504.06116)] [[BibTex](https://github.com/FarInHeight/To-Match-or-Not-to-Match?tab=readme-ov-file#citation)]
 
+<p align="center"><img src="assets/img/pure_vs_plus.png" width="60%" alt="Re-ranking with SuperGlue with VPR methods from different years (NetVLAD, SFRS, EigenPlaces, MegaLoc)." title="Re-ranking with SuperGlue with VPR methods from different years (NetVLAD, SFRS, EigenPlaces, MegaLoc)."></p>
+
+_Figure 1. **Re-ranking with SuperGlue with VPR methods from different years** (NetVLAD, SFRS, EigenPlaces, MegaLoc). In the past, re-ranking the top-K VPR results with powerful image matching methods was guaranteed to improve results. With modern VPR models, this is now true only for certain datasets or types of images. This paper explores this phenomenon, aiming to determine whether re-ranking can be adaptively and confidently triggered for individual queries during deployment._
+
 ## Installation
 
 ### Dependencies
