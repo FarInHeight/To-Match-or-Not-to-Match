@@ -1,7 +1,7 @@
 # To-Match-or-Not-to-Match
-This repository contains the official PyTorch implementation for the paper "To Match or Not to Match: Revisiting Image Matching for Reliable Visual Place Recognition" presented at CVPR 2025 [IMW](https://image-matching-workshop.github.io/) 2025. The code has been released ahead of the [conference](https://cvpr.thecvf.com/Conferences/2025).
+This repository contains the official PyTorch implementation for the paper "To Match or Not to Match: Revisiting Image Matching for Reliable Visual Place Recognition" presented at CVPR [IMW](https://image-matching-workshop.github.io/) 2025. The code has been released ahead of the [conference](https://cvpr.thecvf.com/Conferences/2025).
 
-[[ArXiv](https://arxiv.org/abs/2504.06116)] [[HTML](https://arxiv.org/html/2504.06116)] [[BibTex](https://github.com/FarInHeight/To-Match-or-Not-to-Match?tab=readme-ov-file#citation)]
+[[CVPR Open Access](https://openaccess.thecvf.com/content/CVPR2025W/IMW/html/Sferrazza_To_Match_or_Not_to_Match_Revisiting_Image_Matching_for_CVPRW_2025_paper.html)] [[ArXiv](https://arxiv.org/abs/2504.06116)] [[BibTex](https://github.com/FarInHeight/To-Match-or-Not-to-Match?tab=readme-ov-file#citation)]
 
 <p align="center"><img src="assets/img/pure_vs_plus.png" width="60%" alt="Re-ranking with SuperGlue with VPR methods from different years (NetVLAD, SFRS, EigenPlaces, MegaLoc)." title="Re-ranking with SuperGlue with VPR methods from different years (NetVLAD, SFRS, EigenPlaces, MegaLoc)."></p>
 
