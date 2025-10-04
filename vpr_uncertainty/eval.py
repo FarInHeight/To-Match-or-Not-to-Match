@@ -38,7 +38,7 @@ def main(args):
     txt_files = glob(os.path.join(preds_folder, "*.txt"))
     txt_files.sort(key=lambda x: int(Path(x).stem))
 
-    dict_results = torch.load(z_data_path)
+    dict_results = torch.load(z_data_path, weights_only=False)
     ref_poses = dict_results['database_utms']
     preds = dict_results['predictions']
     dists = dict_results['distances']
@@ -52,7 +52,7 @@ def main(args):
         matched_array_for_aucpr[itr]=1.0 if geo_dists[0] <= threshold else 0.0 #checking if Top-1 contains GT
 
         torch_file_query = inliers_folder.joinpath(Path(txt_file_query).name.replace('txt', 'torch'))
-        query_inliers_results = torch.load(torch_file_query)
+        query_inliers_results = torch.load(torch_file_query, weights_only=False)
         inliers_scores[itr] = query_inliers_results[0]['num_inliers']
     
     inliers_scores = np.interp(inliers_scores, (inliers_scores.min(), inliers_scores.max()), (0.0, 1.0))

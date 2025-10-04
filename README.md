@@ -61,7 +61,7 @@ python match_queries_preds.py \
 After calculating the inliers, you can re-rank the top-K database images based on their inliers. Run the following example command to perform re-ranking:
 
 ```bash
-python reranking.py '<path-to-preds-folder>' --inliers-dir '<path-to-inliers-folder>'
+python reranking.py --preds-dir '<path-to-preds-folder>' --inliers-dir '<path-to-inliers-folder>'
 ```
 
 ## Evaluating Uncertainty Estimation

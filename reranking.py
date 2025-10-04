@@ -45,7 +45,7 @@ def main(args):
     for txt_file_query in tqdm(txt_files):
         geo_dists = torch.tensor(get_list_distances_from_preds(txt_file_query))[:num_preds]
         torch_file_query = inliers_folder.joinpath(Path(txt_file_query).name.replace('txt', 'torch'))
-        query_results = torch.load(torch_file_query)
+        query_results = torch.load(torch_file_query, weights_only=False)
         query_db_inliers = torch.zeros(num_preds, dtype=torch.float32)
         for i in range(num_preds):
             query_db_inliers[i] = query_results[i]['num_inliers']
